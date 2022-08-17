@@ -1,3 +1,3 @@
-# web-platform-hidr64
+# Tabuada-Colorida
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-hidr64)
+[Go check it out on ⚡️](https://stackblitz.com/edit/web-platform-hidr64)
