@@ -1,5 +1,5 @@
 function mostrarTexto(texto) {
-  document.getElementById('resultado').innerHTML += texto;
+  document.getElementById('resultado').innerHTML = texto;
 }
 
 function executar(ev) {
