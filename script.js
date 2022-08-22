@@ -1,4 +1,4 @@
-var x, y, total;
+var y, total;
 
 function mostrarTexto(texto) {
   document.getElementById('box').innerHTML = texto;
@@ -10,7 +10,7 @@ function tabuada() {
 
   resultado += '<table>';
 
-  for (x = 1; x <= num; x++) {
+  for (let x = 1; x <= num; x++) {
     resultado +=
       "<td><table style='width:110%; border: solid rgb(255, 255, 255)'>";
 
@@ -30,7 +30,7 @@ function tabuada() {
           '</td></tr>';
       } else {
         resultado +=
-          "<tr><td style='background-color:hsl(" +
+          "<tr style='color:black;'><td style='background-color:hsl(" +
           cor +
           ",100%,50%)'>" +
           x +
